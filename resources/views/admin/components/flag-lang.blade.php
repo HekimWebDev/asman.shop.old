@@ -1,0 +1,11 @@
+@switch($lang)
+@case('tk')
+tm
+@break
+@case('en')
+gb
+@break
+@case('ru')
+ru
+@break
+@endswitch
