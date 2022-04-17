@@ -1,7 +1,11 @@
-<x-admin.app-layout>
+@extends('admin.layouts.app')
 
-    <x-slot name="header">
-        {{ __('Dashboard') }}
-    </x-slot>
+@section('content')
 
-</x-admin.app-layout>
+        <!-- Main content -->
+        <section class="content">
+
+        </section>
+        <!-- /.content -->
+@endsection
+

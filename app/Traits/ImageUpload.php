@@ -39,7 +39,7 @@ trait ImageUpload
         }
     }
 
-    public function storeImage(Object $query, String $folder)
+    public function storeImage(Object $query, String $folder): string
     {
         $this->__construct($folder . '/');
 
@@ -62,7 +62,7 @@ trait ImageUpload
         return $folder . '/' . $hashName;
     }
 
-    public function destroyImage(String $path = null)
+    public function destroyImage(String $path = null): void
     {
         if (File::exists($this->original . $path)) {
             File::delete($this->original . $path);

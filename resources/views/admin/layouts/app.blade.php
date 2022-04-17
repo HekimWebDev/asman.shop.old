@@ -1,157 +1,63 @@
 <!DOCTYPE html>
 <html lang="{{ config('app.locale') }}">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" href="{{ asset('admin/favicon.ico') }}">
+    <title>Asman shop</title>
 
-    <title>{{ $header . ' - ' . config('app.name', 'DiaT e-commerce') }}</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ asset('assets/lib/fontawesome-free/css/all.min.css') }}">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="{{ asset('assets/admin/css/adminlte.min.css') }}">
 
-    <!-- Custom fonts for this template-->
-    <link href="{{ asset('admin/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
-
-    <!-- Custom styles for this template-->
-    <link href="{{ asset('admin/css/sb-admin-2.min.css') }}" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{ asset('admin/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-
-    @livewireStyles
     @stack('styles')
+
 </head>
+<body class="hold-transition sidebar-mini">
+<!-- Site wrapper -->
+<div class="wrapper">
+    <!-- Navbar -->
+@include('admin.components.navbar')
+<!-- /.navbar -->
 
-<body id="page-top">
-
-@include('sweetalert::alert')
-
-<!-- Page Wrapper -->
-<div id="wrapper">
-
-    <!-- Sidebar -->
+    <!-- Main Sidebar Container -->
 @include('admin.components.sidebar')
-<!-- End of Sidebar -->
 
-    <!-- Content Wrapper -->
-    <div id="content-wrapper" class="d-flex flex-column">
-
-        <!-- Main Content -->
-        <div id="content">
-
-            <!-- Topbar -->
-        @include('admin.components.navbar')
-        <!-- End of Topbar -->
-
-            <!-- Begin Page Content -->
-            <div class="container-fluid">
-
-                <!-- Page Heading -->
-                <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                    <h1 class="h3 mb-0 text-gray-800">{{ $header }}</h1>
-
-                    {{-- <a href="{{ route('store.home') }}" target="_blank"
-                    class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                    <i class="fas fa-fw fa-globe fa-sm text-white-50"></i> {{ __('Visit store') }}
-                    </a> --}}
-                </div>
-
-                <main>
-                    {{ $slot }}
-                </main>
-            </div>
-            <!-- /.container-fluid -->
-
-        </div>
-        <!-- End of Main Content -->
-    @include('admin.components.footer')
-    <!-- Footer -->
-
-        <!-- End of Footer -->
-
+<!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+        @yield('content')
     </div>
-    <!-- End of Content Wrapper -->
+    <!-- /.content-wrapper -->
 
-</div>
-<!-- End of Page Wrapper -->
-
-<!-- Scroll to Top Button-->
-<a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-</a>
-
-<!-- Logout Modal-->
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">{{ __('Ready to leave?') }}</h5>
-                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-            </div>
-            <div
-                class="modal-body">{{ __('Select "Logout" below if you are ready to end your current session.') }}</div>
-            <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">{{ __('Cancel') }}</button>
-
-                <!-- Authentication -->
-                <form method="POST" action="{{ route('admin.logout') }}">
-                    @csrf
-                    <button class="btn btn-primary">{{ __('Logout') }}</button>
-                </form>
-            </div>
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-block">
+            <b>Version</b> 3.2.0
         </div>
-    </div>
+        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    </footer>
+
+    <!-- Control Sidebar -->
+    <aside class="control-sidebar control-sidebar-dark">
+        <!-- Control sidebar content goes here -->
+    </aside>
+    <!-- /.control-sidebar -->
 </div>
+<!-- ./wrapper -->
 
-<script src="{{ asset('js/app.js') }}"></script>
+<!-- jQuery -->
+<script src="{{ asset('assets/lib/jquery/jquery.min.js') }}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{ asset('assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ asset('assets/admin/js/adminlte.min.js') }}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{ asset('assets/admin/js/demo.js') }}"></script>
 
-<!-- Core plugin JavaScript-->
-<script src="{{ asset('admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
-
-<!-- Custom scripts for all pages-->
-<script src="{{ asset('admin/js/sb-admin-2.min.js') }}"></script>
-
-<!-- Scripts -->
-<script src="{{ asset('vendor/datatables/buttons.server-side.js') }}"></script>
-<script src="{{ asset('admin/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
-
-@livewireScripts
 @stack('scripts')
 
-<script>
-    $(document).ready(function () {
-
-        if (localStorage.getItem('bool') === null) {
-            localStorage.setItem('bool', 0);
-        }
-
-        if (localStorage.getItem('bool') == 1) {
-            $('body').addClass('sidebar-toggled');
-            $('#accordionSidebar').addClass('toggled');
-        } else if (localStorage.getItem('bool') == 0) {
-            $('body').removeClass('sidebar-toggled');
-            $('#accordionSidebar').removeClass('toggled');
-        }
-
-        $('#sidebarToggle,#sidebarToggleTop').click(function (e) {
-            if (localStorage.getItem('bool') == 0) {
-                localStorage.setItem('bool', 1);
-                $('body').addClass('sidebar-toggled');
-                $('#accordionSidebar').addClass('toggled');
-            } else if (localStorage.getItem('bool') == 1) {
-                localStorage.setItem('bool', 0);
-                $('body').removeClass('sidebar-toggled');
-                $('#accordionSidebar').removeClass('toggled');
-            }
-        });
-    });
-</script>
-
 </body>
-
 </html>

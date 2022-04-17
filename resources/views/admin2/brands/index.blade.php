@@ -1,38 +1,31 @@
-@extends('admin.layouts.app')
-
-@section('content')
+<x-admin.app-layout>
 
     @push('styles')
-        <link href="{{ asset('assets/lib/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
+
+        <link href="{{ asset('admin/vendor/datatables/dataTables.bootstrap4.min.css') }}" rel="stylesheet">
+
     @endpush
 
-    <section class="content-header">
-        <div class="container-fluid">
-            <div class="row mb-2">
-                <div class="col-sm-6">
-                    <h1>{{ __('Create brand') }}</h1>
-                </div>
-            </div>
-        </div><!-- /.container-fluid -->
-    </section>
+    <x-slot name="header">
+        {{ __('Brands') }}
+    </x-slot>
 
-    <section class="content">
-        <div class="card shadow">
-            <div class="card-header">
+    <div class="card shadow">
+        <div class="card-header">
             <span class="font-weight-bold text-primary">
                 {{ __('Brands') }}
             </span>
-                <span class="float-right">
+            <span class="float-right">
                 <a href="{{ route('admin.brands.create') }}" class="btn btn-primary btn-sm" data-toggle="tooltip"
-                   data-placement="top" title="{{ __('Create') }}">
+                    data-placement="top" title="{{ __('Create') }}">
                     <i class="fa fa-fw fa-plus"></i>
                 </a>
             </span>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                        <thead>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
                         <tr>
                             <th class="text-center">#</th>
                             <th>{{ __('Name') }}</th>
@@ -41,14 +34,14 @@
                             <th class="text-center">{{ __('Status') }}</th>
                             <th class="text-center">{{ __('Actions') }}</th>
                         </tr>
-                        </thead>
-                        <tbody>
+                    </thead>
+                    <tbody>
                         @foreach ($brands as $brand)
                             <tr>
                                 <th class="text-center">{{ $loop->iteration }}</th>
                                 <td>{{ $brand->name ?? '' }}</td>
                                 <td class="text-center"><img src="{{ asset('storage/medium/' . $brand->image) }}"
-                                                             alt="" width="150"></td>
+                                        alt="" width="150"></td>
                                 <td class="text-center">
                                     {{ $brand->products_count }}
                                 </td>
@@ -58,32 +51,31 @@
                                 </td>
                                 <td class="text-center">
                                     <a href="{{ route('admin.brands.edit', $brand->id) }}"
-                                       class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top"
-                                       title="{{ __('Edit') }}"><i class="fa fa-pen fa-fw"></i>
+                                        class="btn btn-success btn-sm" data-toggle="tooltip" data-placement="top"
+                                        title="{{ __('Edit') }}"><i class="fa fa-pen fa-fw"></i>
                                     </a>
                                     <form class="d-inline delete-form"
-                                          action="{{ route('admin.brands.destroy', $brand->id) }}" method="post">
+                                        action="{{ route('admin.brands.destroy', $brand->id) }}" method="post">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-danger btn-sm" data-toggle="tooltip"
-                                                data-placement="top" title="" data-original-title="{{ __('Delete') }}">
+                                            data-placement="top" title="" data-original-title="{{ __('Delete') }}">
                                             <i class="fa fa-trash fa-fw"></i>
                                         </button>
                                     </form>
                                 </td>
                             </tr>
                         @endforeach
-                        </tbody>
-                    </table>
-                </div>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </section>
+    </div>
 
     @push('scripts')
 
-        <script src="{{ asset('/assets/lib/datatables/jquery.dataTables.min.js') }}"></script>
-        <script src="{{ asset('/assets/lib/datatables/dataTables.bootstrap4.min.js') }}"></script>
+        <script src="{{ asset('admin/vendor/datatables/jquery.dataTables.min.js') }}"></script>
+        <script src="{{ asset('admin/vendor/datatables/dataTables.bootstrap4.min.js') }}"></script>
         <script>
             $('#dataTable').DataTable();
 
@@ -96,4 +88,4 @@
 
     @endpush
 
-@endsection
+</x-admin.app-layout>

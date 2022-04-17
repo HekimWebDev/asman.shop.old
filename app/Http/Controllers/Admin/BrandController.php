@@ -5,7 +5,12 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Brand;
 use App\Traits\ImageUpload;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class BrandController extends Controller
 {
@@ -14,7 +19,7 @@ class BrandController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function index()
     {
@@ -25,7 +30,7 @@ class BrandController extends Controller
     /**
      * Show the form for creating a new resource.
      *
-     * @return \Illuminate\Http\Response
+     * @return Application|Factory|View
      */
     public function create()
     {
@@ -35,10 +40,10 @@ class BrandController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @return RedirectResponse
      */
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         $request->validate([
             'name' => 'required|string|max:70',
@@ -48,10 +53,10 @@ class BrandController extends Controller
 
         $brand = Brand::create([
             'name' => $request->name,
-            'status' => $request->status === null ? 0 : $request->status,
+            'status' => $request->status ?? 0,
         ]);
 
-        $brand->status = $request->status === null ? 0 : $request->status;
+        $brand->status = $request->status ?? 0; // Name ucin gerek???   
 
         if ($request->file('image')) {
             $brand->image = $this->storeImage($request->file('image'), 'brands');
@@ -66,8 +71,8 @@ class BrandController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Brand  $brand
-     * @return \Illuminate\Http\Response
+     * @param Brand $brand
+     * @return void
      */
     public function show(Brand $brand)
     {
@@ -77,8 +82,8 @@ class BrandController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Brand  $brand
-     * @return \Illuminate\Http\Response
+     * @param Brand $brand
+     * @return Application|Factory|View
      */
     public function edit(Brand $brand)
     {
@@ -88,11 +93,11 @@ class BrandController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Brand  $brand
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Brand $brand
+     * @return RedirectResponse
      */
-    public function update(Request $request, Brand $brand)
+    public function update(Request $request, Brand $brand): RedirectResponse
     {
         $request->validate([
             'name' => 'required|string|max:70',
@@ -102,10 +107,10 @@ class BrandController extends Controller
 
         $brand->update([
             'name' => $request->name,
-            'status' => $request->status === null ? 0 : $request->status,
+            'status' => $request->status ?? 0,
         ]);
 
-        $brand->status = $request->status === null ? 0 : $request->status;
+        $brand->status = $request->status ?? 0;
 
         if ($request->file('image')) {
             $this->destroyImage($brand->image);
@@ -121,10 +126,10 @@ class BrandController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Brand  $brand
-     * @return \Illuminate\Http\Response
+     * @param Brand $brand
+     * @return RedirectResponse
      */
-    public function destroy(Brand $brand)
+    public function destroy(Brand $brand): RedirectResponse
     {
         $this->destroyImage($brand->image);
         $brand->delete();
