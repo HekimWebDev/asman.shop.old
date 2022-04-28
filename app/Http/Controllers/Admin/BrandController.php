@@ -56,7 +56,7 @@ class BrandController extends Controller
             'status' => $request->status ?? 0,
         ]);
 
-        $brand->status = $request->status ?? 0; // Name ucin gerek???   
+        $brand->status = $request->status ?? 0; // Name ucin gerek???
 
         if ($request->file('image')) {
             $brand->image = $this->storeImage($request->file('image'), 'brands');

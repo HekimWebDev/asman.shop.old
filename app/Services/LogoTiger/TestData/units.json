@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1,
+        "code": "M",
+        "name": "Metre",
+        "globalCode": "MTR"
+    },
+    {
+        "id": 2,
+        "code": "MM",
+        "name": "Milimetre",
+        "globalCode": "MMT"
+    },
+    {
+        "id": 3,
+        "code": "CM",
+        "name": "Santimetre",
+        "globalCode": "CMT"
+    },
+    {
+        "id": 4,
+        "code": "IN",
+        "name": "Ynç",
+        "globalCode": "INH"
+    },
+    {
+        "id": 5,
+        "code": "FT",
+        "name": "Ayak",
+        "globalCode": "FOT"
+    },
+    {
+        "id": 6,
+        "code": "KM",
+        "name": "Kilometre",
+        "globalCode": "KMT"
+    },
+    {
+        "id": 7,
+        "code": "M²",
+        "name": "Metre kare",
+        "globalCode": "MTK"
+    },
+    {
+        "id": 8,
+        "code": "MM²",
+        "name": "Milimetre kare",
+        "globalCode": "MMK"
+    },
+    {
+        "id": 9,
+        "code": "CM²",
+        "name": "Santimetre kare",
+        "globalCode": "CMK"
+    },
+    {
+        "id": 10,
+        "code": "IN²",
+        "name": "Ynç kare",
+        "globalCode": "INK"
+    },
+    {
+        "id": 11,
+        "code": "FT²",
+        "name": "Ayak kare",
+        "globalCode": "FTK"
+    },
+    {
+        "id": 12,
+        "code": "LT",
+        "name": "Litre (DM³)",
+        "globalCode": "LTR"
+    },
+    {
+        "id": 13,
+        "code": "ML",
+        "name": "Mililitre (CC)",
+        "globalCode": "MLT"
+    },
+    {
+        "id": 14,
+        "code": "CL",
+        "name": "Santilitre",
+        "globalCode": "CLT"
+    },
+    {
+        "id": 15,
+        "code": "IN³",
+        "name": "Ynç küp",
+        "globalCode": "INQ"
+    },
+    {
+        "id": 16,
+        "code": "FT³",
+        "name": "Ayak küp",
+        "globalCode": "FTQ"
+    },
+    {
+        "id": 17,
+        "code": "M³",
+        "name": "Metreküp",
+        "globalCode": "MTQ"
+    },
+    {
+        "id": 18,
+        "code": "KG",
+        "name": "Kilogram",
+        "globalCode": "KGM"
+    },
+    {
+        "id": 19,
+        "code": "GR",
+        "name": "Gram",
+        "globalCode": "GRM"
+    },
+    {
+        "id": 20,
+        "code": "OZ",
+        "name": "Ons",
+        "globalCode": "ONZ"
+    },
+    {
+        "id": 21,
+        "code": "LB",
+        "name": "Libre (Pound)",
+        "globalCode": "LBR"
+    },
+    {
+        "id": 22,
+        "code": "TON",
+        "name": "Ton",
+        "globalCode": "26"
+    },
+    {
+        "id": 23,
+        "code": "ADET",
+        "name": "Adet",
+        "globalCode": "NIU"
+    },
+    {
+        "id": 24,
+        "code": "TAKIM",
+        "name": "TAKIM",
+        "globalCode": ""
+    },
+    {
+        "id": 25,
+        "code": "ADET",
+        "name": "ADET",
+        "globalCode": ""
+    },
+    {
+        "id": 26,
+        "code": "CIFT",
+        "name": "CIFT",
+        "globalCode": ""
+    },
+    {
+        "id": 27,
+        "code": "ADET",
+        "name": "",
+        "globalCode": ""
+    },
+    {
+        "id": 28,
+        "code": "5LIK ADET",
+        "name": "K",
+        "globalCode": ""
+    },
+    {
+        "id": 29,
+        "code": "10LUK",
+        "name": "",
+        "globalCode": ""
+    },
+    {
+        "id": 30,
+        "code": "ADET",
+        "name": "ADET",
+        "globalCode": ""
+    },
+    {
+        "id": 31,
+        "code": "GROUP ",
+        "name": "GROUP ",
+        "globalCode": ""
+    }
+]

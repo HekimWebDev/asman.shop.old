@@ -1,0 +1,158 @@
+[
+    {
+        "id": 2,
+        "nr": 0,
+        "name": "Merkez",
+        "divisionNr": 0
+    },
+    {
+        "id": 3,
+        "nr": 10,
+        "name": "MAVI",
+        "divisionNr": 10
+    },
+    {
+        "id": 4,
+        "nr": 20,
+        "name": "ALTIN YILDIZ",
+        "divisionNr": 20
+    },
+    {
+        "id": 5,
+        "nr": 30,
+        "name": "KOTON WOMEN",
+        "divisionNr": 30
+    },
+    {
+        "id": 6,
+        "nr": 40,
+        "name": "KOTON KIDS",
+        "divisionNr": 40
+    },
+    {
+        "id": 7,
+        "nr": 50,
+        "name": "RAMSEY",
+        "divisionNr": 50
+    },
+    {
+        "id": 8,
+        "nr": 60,
+        "name": "LCW",
+        "divisionNr": 60
+    },
+    {
+        "id": 9,
+        "nr": 15,
+        "name": "MAV YOLDAKI DEPO",
+        "divisionNr": 10
+    },
+    {
+        "id": 10,
+        "nr": 25,
+        "name": "ALT YOLDAKI DEPO",
+        "divisionNr": 20
+    },
+    {
+        "id": 11,
+        "nr": 35,
+        "name": "KNW YOLDAKI DEPO",
+        "divisionNr": 30
+    },
+    {
+        "id": 12,
+        "nr": 45,
+        "name": "KNK YOLDAKI DEPO",
+        "divisionNr": 40
+    },
+    {
+        "id": 13,
+        "nr": 55,
+        "name": "RAMSEY YOLDAKI DEPO",
+        "divisionNr": 50
+    },
+    {
+        "id": 14,
+        "nr": 65,
+        "name": "LCW YOLDAKI DEPO",
+        "divisionNr": 60
+    },
+    {
+        "id": 15,
+        "nr": 18,
+        "name": "MAV SANAW DEPO",
+        "divisionNr": 10
+    },
+    {
+        "id": 16,
+        "nr": 28,
+        "name": "ALT SANAW DEPO",
+        "divisionNr": 20
+    },
+    {
+        "id": 17,
+        "nr": 38,
+        "name": "KNW SANAW DEPO",
+        "divisionNr": 30
+    },
+    {
+        "id": 18,
+        "nr": 48,
+        "name": "KNK SANAW DEPO",
+        "divisionNr": 40
+    },
+    {
+        "id": 19,
+        "nr": 58,
+        "name": "RAMSEY SANAW DEPO",
+        "divisionNr": 50
+    },
+    {
+        "id": 20,
+        "nr": 68,
+        "name": "LCW SANAW DEPO",
+        "divisionNr": 60
+    },
+    {
+        "id": 21,
+        "nr": 19,
+        "name": "MAV SABIT KIYMET DEPO",
+        "divisionNr": 10
+    },
+    {
+        "id": 22,
+        "nr": 29,
+        "name": "ALT SABIT KIYMET",
+        "divisionNr": 20
+    },
+    {
+        "id": 23,
+        "nr": 39,
+        "name": "KNW SABIT KIYMET",
+        "divisionNr": 30
+    },
+    {
+        "id": 24,
+        "nr": 49,
+        "name": "KNK SABIT KIYMET",
+        "divisionNr": 40
+    },
+    {
+        "id": 25,
+        "nr": 59,
+        "name": "RAMSEY SABIT KIYMET",
+        "divisionNr": 50
+    },
+    {
+        "id": 26,
+        "nr": 69,
+        "name": "LCW SABIT KIYMET",
+        "divisionNr": 60
+    },
+    {
+        "id": 29,
+        "nr": 9,
+        "name": "OFIS SABIT KIYMET DEPO",
+        "divisionNr": 0
+    }
+]

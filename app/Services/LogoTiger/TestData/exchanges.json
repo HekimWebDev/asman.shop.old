@@ -1,0 +1,677 @@
+[
+    {
+        "id": 1,
+        "date": "2021-11-10",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 2,
+        "date": "2021-11-09",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 3,
+        "date": "2021-11-11",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 4,
+        "date": "2021-11-18",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 5,
+        "date": "2021-11-19",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 6,
+        "date": "2021-11-20",
+        "currencyId": 1,
+        "rates1": 25,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 7,
+        "date": "2021-11-21",
+        "currencyId": 1,
+        "rates1": 25,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 8,
+        "date": "2021-11-22",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 9,
+        "date": "2021-11-23",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 10,
+        "date": "2021-11-24",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 11,
+        "date": "2021-11-26",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 25,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 12,
+        "date": "2021-11-25",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 13,
+        "date": "2021-11-27",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 14,
+        "date": "2021-11-28",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 15,
+        "date": "2021-11-29",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 16,
+        "date": "2021-11-30",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 17,
+        "date": "2021-12-01",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 18,
+        "date": "2021-12-02",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 19,
+        "date": "2021-12-03",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 20,
+        "date": "2021-12-04",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 21,
+        "date": "2021-12-05",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 22,
+        "date": "2021-12-06",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 23,
+        "date": "2021-12-07",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 24,
+        "date": "2021-12-08",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 25,
+        "date": "2021-12-09",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 26,
+        "date": "2021-12-10",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 27,
+        "date": "2021-12-11",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 28,
+        "date": "2021-12-12",
+        "currencyId": 1,
+        "rates1": 24,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 29,
+        "date": "2021-11-05",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 30,
+        "date": "2021-11-05",
+        "currencyId": 20,
+        "rates1": 26.45,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 31,
+        "date": "2021-12-14",
+        "currencyId": 1,
+        "rates1": 19,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 32,
+        "date": "2021-12-03",
+        "currencyId": 160,
+        "rates1": 1.67883212,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 33,
+        "date": "2021-12-15",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 34,
+        "date": "2021-12-16",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 35,
+        "date": "2021-11-22",
+        "currencyId": 160,
+        "rates1": 2.07207207,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 36,
+        "date": "2021-12-13",
+        "currencyId": 1,
+        "rates1": 20,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 37,
+        "date": "2021-11-17",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 38,
+        "date": "2021-11-16",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 39,
+        "date": "2021-11-15",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 40,
+        "date": "2021-11-14",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 41,
+        "date": "2021-11-13",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 42,
+        "date": "2021-12-17",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 43,
+        "date": "2021-12-21",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 44,
+        "date": "2021-12-22",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 45,
+        "date": "2021-12-15",
+        "currencyId": 160,
+        "rates1": 1.4354067,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 46,
+        "date": "2021-12-24",
+        "currencyId": 1,
+        "rates1": 17,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 47,
+        "date": "2021-12-25",
+        "currencyId": 1,
+        "rates1": 17.5,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 48,
+        "date": "2021-12-26",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 49,
+        "date": "2021-12-27",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 50,
+        "date": "2021-12-28",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 51,
+        "date": "2021-12-29",
+        "currencyId": 1,
+        "rates1": 19.3,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 52,
+        "date": "2021-12-30",
+        "currencyId": 1,
+        "rates1": 19.3,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 53,
+        "date": "2022-01-03",
+        "currencyId": 1,
+        "rates1": 20.5,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 54,
+        "date": "2022-01-04",
+        "currencyId": 1,
+        "rates1": 20.25,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 55,
+        "date": "2022-01-05",
+        "currencyId": 1,
+        "rates1": 20.5,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 56,
+        "date": "2022-01-06",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 57,
+        "date": "2022-01-08",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 58,
+        "date": "2022-01-07",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 59,
+        "date": "2022-01-09",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 60,
+        "date": "2022-01-10",
+        "currencyId": 1,
+        "rates1": 21.5,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 61,
+        "date": "2021-12-31",
+        "currencyId": 1,
+        "rates1": 19,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 62,
+        "date": "2022-01-02",
+        "currencyId": 1,
+        "rates1": 19,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 63,
+        "date": "2022-01-11",
+        "currencyId": 1,
+        "rates1": 21.5,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 64,
+        "date": "2022-01-01",
+        "currencyId": 1,
+        "rates1": 19,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 65,
+        "date": "2021-12-23",
+        "currencyId": 1,
+        "rates1": 18,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 66,
+        "date": "2021-12-18",
+        "currencyId": 1,
+        "rates1": 20,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 67,
+        "date": "2021-12-19",
+        "currencyId": 1,
+        "rates1": 20,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 68,
+        "date": "2021-12-20",
+        "currencyId": 1,
+        "rates1": 19,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 69,
+        "date": "2021-11-01",
+        "currencyId": 1,
+        "rates1": 23,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 70,
+        "date": "2021-12-26",
+        "currencyId": 160,
+        "rates1": 1.58,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 71,
+        "date": "2022-01-12",
+        "currencyId": 1,
+        "rates1": 22,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 72,
+        "date": "2021-02-27",
+        "currencyId": 1,
+        "rates1": 21,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 73,
+        "date": "2021-02-27",
+        "currencyId": 160,
+        "rates1": 1.93,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 74,
+        "date": "2021-12-27",
+        "currencyId": 160,
+        "rates1": 1.58,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    },
+    {
+        "id": 75,
+        "date": "2022-01-13",
+        "currencyId": 1,
+        "rates1": 22,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0
+    }
+]

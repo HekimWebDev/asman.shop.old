@@ -1,0 +1,1536 @@
+[
+    {
+        "item_id": 1147,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "GIYIM AKSESUAR",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8699106167070",
+        "name": "Papyon Takim",
+        "description": "RAMSEY CLASSIC LACIVERT PAPYON SIZE:STN",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 8,
+                    "unit_id": 25,
+                    "item_id": 1147,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 3,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 6,
+                "item_id": 1147,
+                "item_unit_id": 8,
+                "unit_id": 25,
+                "barcode": "8699106167070"
+            }
+        ]
+    },
+    {
+        "item_id": 1148,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "GOMLEK",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681135318585",
+        "name": "Casual Erkek GOMLEK",
+        "description": "RAMSEY CLASSIC ACIK MAVI CASUAL GOMLEK SIZE:43",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 9,
+                    "unit_id": 25,
+                    "item_id": 1148,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 7,
+                "item_id": 1148,
+                "item_unit_id": 9,
+                "unit_id": 25,
+                "barcode": "8681135318585"
+            }
+        ]
+    },
+    {
+        "item_id": 1149,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "BOXER",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824149810",
+        "name": "Beyaz Erkek Atlet",
+        "description": "RAMSEY CLASSIC BEYAZ ATLET SIZE:L",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 10,
+                    "unit_id": 25,
+                    "item_id": 1149,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 42956,
+                "item_id": 1149,
+                "item_unit_id": 10,
+                "unit_id": 25,
+                "barcode": "8681824149810"
+            }
+        ]
+    },
+    {
+        "item_id": 1150,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "BOXER",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824149827",
+        "name": "Beyaz Erkek Atlet",
+        "description": "RAMSEY CLASSIC BEYAZ ATLET SIZE:XL",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 11,
+                    "unit_id": 25,
+                    "item_id": 1150,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 9,
+                "item_id": 1150,
+                "item_unit_id": 11,
+                "unit_id": 25,
+                "barcode": "8681824149827"
+            }
+        ]
+    },
+    {
+        "item_id": 1151,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "BOXER",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824149865",
+        "name": "Beyaz Erkek Atlet",
+        "description": "RAMSEY CLASSIC BEYAZ ATLET SIZE:M",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 12,
+                    "unit_id": 25,
+                    "item_id": 1151,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 10,
+                "item_id": 1151,
+                "item_unit_id": 12,
+                "unit_id": 25,
+                "barcode": "8681824149865"
+            }
+        ]
+    },
+    {
+        "item_id": 1152,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "BOXER",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824149803",
+        "name": "Beyaz Erkek Atlet",
+        "description": "RAMSEY CLASSIC BEYAZ ATLET SIZE:S",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 13,
+                    "unit_id": 25,
+                    "item_id": 1152,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 11,
+                "item_id": 1152,
+                "item_unit_id": 13,
+                "unit_id": 25,
+                "barcode": "8681824149803"
+            }
+        ]
+    },
+    {
+        "item_id": 1153,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116348",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC SIYAH DERI AYAKKABI SIZE:43",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 14,
+                    "unit_id": 25,
+                    "item_id": 1153,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 12,
+                "item_id": 1153,
+                "item_unit_id": 14,
+                "unit_id": 25,
+                "barcode": "8681824116348"
+            }
+        ]
+    },
+    {
+        "item_id": 1154,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116331",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC SIYAH DERI AYAKKABI SIZE:42",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 15,
+                    "unit_id": 25,
+                    "item_id": 1154,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 2,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 13,
+                "item_id": 1154,
+                "item_unit_id": 15,
+                "unit_id": 25,
+                "barcode": "8681824116331"
+            }
+        ]
+    },
+    {
+        "item_id": 1155,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116218",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:42",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 16,
+                    "unit_id": 25,
+                    "item_id": 1155,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 2,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 14,
+                "item_id": 1155,
+                "item_unit_id": 16,
+                "unit_id": 25,
+                "barcode": "8681824116218"
+            }
+        ]
+    },
+    {
+        "item_id": 1156,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116232",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:44",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 17,
+                    "unit_id": 25,
+                    "item_id": 1156,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 15,
+                "item_id": 1156,
+                "item_unit_id": 17,
+                "unit_id": 25,
+                "barcode": "8681824116232"
+            }
+        ]
+    },
+    {
+        "item_id": 1157,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116355",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC SIYAH DERI AYAKKABI SIZE:44",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 18,
+                    "unit_id": 25,
+                    "item_id": 1157,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 16,
+                "item_id": 1157,
+                "item_unit_id": 18,
+                "unit_id": 25,
+                "barcode": "8681824116355"
+            }
+        ]
+    },
+    {
+        "item_id": 1158,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116225",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:43",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 19,
+                    "unit_id": 25,
+                    "item_id": 1158,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 17,
+                "item_id": 1158,
+                "item_unit_id": 19,
+                "unit_id": 25,
+                "barcode": "8681824116225"
+            }
+        ]
+    },
+    {
+        "item_id": 1159,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116317",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC SIYAH DERI AYAKKABI SIZE:40",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 20,
+                    "unit_id": 25,
+                    "item_id": 1159,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 2,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 18,
+                "item_id": 1159,
+                "item_unit_id": 20,
+                "unit_id": 25,
+                "barcode": "8681824116317"
+            }
+        ]
+    },
+    {
+        "item_id": 1160,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116195",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:\\",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 21,
+                    "unit_id": 25,
+                    "item_id": 1160,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 19,
+                "item_id": 1160,
+                "item_unit_id": 21,
+                "unit_id": 25,
+                "barcode": "8681824116195"
+            }
+        ]
+    },
+    {
+        "item_id": 1161,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116249",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:45",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 22,
+                    "unit_id": 25,
+                    "item_id": 1161,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 20,
+                "item_id": 1161,
+                "item_unit_id": 22,
+                "unit_id": 25,
+                "barcode": "8681824116249"
+            }
+        ]
+    },
+    {
+        "item_id": 1162,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116201",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC KAHVERENGI DERI AYAKKABI SIZE:41",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 23,
+                    "unit_id": 25,
+                    "item_id": 1162,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 21,
+                "item_id": 1162,
+                "item_unit_id": 23,
+                "unit_id": 25,
+                "barcode": "8681824116201"
+            }
+        ]
+    },
+    {
+        "item_id": 1163,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116324",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC SIYAH DERI AYAKKABI SIZE:41",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 24,
+                    "unit_id": 25,
+                    "item_id": 1163,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": null,
+                "reserved": null,
+                "warehouse": null
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 22,
+                "item_id": 1163,
+                "item_unit_id": 24,
+                "unit_id": 25,
+                "barcode": "8681824116324"
+            }
+        ]
+    },
+    {
+        "item_id": 1164,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116188",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC LACIVERT DERI AYAKKABI SIZE:45",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 25,
+                    "unit_id": 25,
+                    "item_id": 1164,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 0,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 23,
+                "item_id": 1164,
+                "item_unit_id": 25,
+                "unit_id": 25,
+                "barcode": "8681824116188"
+            }
+        ]
+    },
+    {
+        "item_id": 1165,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116171",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC LACIVERT DERI AYAKKABI SIZE:44",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 26,
+                    "unit_id": 25,
+                    "item_id": 1165,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 24,
+                "item_id": 1165,
+                "item_unit_id": 26,
+                "unit_id": 25,
+                "barcode": "8681824116171"
+            }
+        ]
+    },
+    {
+        "item_id": 1166,
+        "status": 1,
+        "brand_id": 1,
+        "brand": {
+            "id": 1,
+            "code": "RMS",
+            "name": "RAMSEY"
+        },
+        "category": "AYAKKABI",
+        "main_unit": "ADET",
+        "unit_id": 25,
+        "sales_limit_quantity": 0,
+        "code": "RMS.8681824116164",
+        "name": "Deri Erkek Ayakkabi",
+        "description": "RAMSEY CLASSIC LACIVERT DERI AYAKKABI SIZE:43",
+        "attribute_data": null,
+        "attributes": [
+            "name",
+            "description"
+        ],
+        "units": [
+            {
+                "id": 25,
+                "code": "ADET",
+                "name": {
+                    "tr": "ADET"
+                },
+                "item_units": {
+                    "id": 27,
+                    "unit_id": 25,
+                    "item_id": 1166,
+                    "main_unit": true,
+                    "coefficient": 1,
+                    "active": false,
+                    "width": 0,
+                    "width_unit": null,
+                    "length": 0,
+                    "length_unit": null,
+                    "height": 0,
+                    "height_unit": null,
+                    "area": 0,
+                    "area_unit": null,
+                    "volume": 0,
+                    "volume_unit": null,
+                    "weight": 0,
+                    "weight_unit": "0",
+                    "gross_volume": 0,
+                    "gross_volume_unit": null,
+                    "gross_weght": 0,
+                    "gross_weight_unit": null
+                }
+            }
+        ],
+        "stocks": [
+            {
+                "onhand": 1,
+                "reserved": 0,
+                "warehouse": {
+                    "id": 7,
+                    "number": 50,
+                    "name": "RAMSEY",
+                    "division_number": 50,
+                    "division": null
+                }
+            }
+        ],
+        "barcodes": [
+            {
+                "id": 25,
+                "item_id": 1166,
+                "item_unit_id": 27,
+                "unit_id": 25,
+                "barcode": "8681824116164"
+            }
+        ]
+    }
+]

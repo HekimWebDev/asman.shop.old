@@ -2,17 +2,37 @@
 
 namespace App\Models;
 
-use Astrotomic\Translatable\Contracts\Translatable as TranslatableContract;
-use Astrotomic\Translatable\Translatable;
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Kalnoy\Nestedset\NodeTrait;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Spatie\MediaLibrary\HasMedia;
+use Rinvex\Categories\Models\Category as RinvexCategory;
+use Spatie\MediaLibrary\InteractsWithMedia;
 
-class Category extends Model implements TranslatableContract
+class Category extends RinvexCategory implements HasMedia
 {
-    use HasFactory, Translatable, NodeTrait;
+    use InteractsWithMedia;
 
-    public $translatedAttributes = ['slug', 'name', 'description'];
+    protected $fillable = [
+        'name',
+        'description',
+        'image',
+        'status',
+        'slug'
+    ];
+
+    public function products(): MorphToMany
+    {
+        return $this->morphedByMany(
+            Product::class,
+            'categorizable',
+            config('rinvex.categories.tables.categorizables'),
+            'category_id',
+            'categorizable_id',
+            'id',
+            'id'
+        );
+    }
+
+    /*public array $translatedAttributes = ['slug', 'name', 'description'];
 
     protected $fillable = [
         'image',
@@ -66,7 +86,7 @@ class Category extends Model implements TranslatableContract
         return $this->hasMany(Category::class, 'one_c_parent_id', 'one_c_id');
     }
 
-    public function getAllChildren()
+    public function getAllChildren(): Collection
     {
         $sections = collect();
 
@@ -86,5 +106,5 @@ class Category extends Model implements TranslatableContract
     public function pcCollect()
     {
         return $this->hasOne(PcCollect::class);
-    }
+    }*/
 }

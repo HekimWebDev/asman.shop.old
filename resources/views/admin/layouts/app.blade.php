@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="{{ asset('assets/lib/fontawesome-free/css/all.min.css') }}">
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('assets/admin/css/adminlte.min.css') }}">
+    <!-- Bootstrap select -->
+    <link rel="stylesheet" href="{{ asset('assets/lib/bootstrap-select/dist/css/bootstrap-select.min.css') }}">
+    <!-- Styles -->
+{{--    <link rel="stylesheet" href="{{ asset('css/app.css') }}">--}}
+{{--    <link href="{{ asset('admin/css/sb-admin-2.min.css') }}" rel="stylesheet">--}}
 
     @stack('styles')
 
@@ -48,14 +53,26 @@
 </div>
 <!-- ./wrapper -->
 
+<!-- App js -->
+
+{{--<script src="{{ asset('admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>--}}
+{{--<script src="{{ asset('admin/js/sb-admin-2.min.js') }}"></script>--}}
+{{--<script src="{{ asset('vendor/datatables/buttons.server-side.js') }}"></script>--}}
+
+
+
 <!-- jQuery -->
 <script src="{{ asset('assets/lib/jquery/jquery.min.js') }}"></script>
+{{--<script src="{{ asset('admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>--}}
+
 <!-- Bootstrap 4 -->
 <script src="{{ asset('assets/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE App -->
 <script src="{{ asset('assets/admin/js/adminlte.min.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('assets/admin/js/demo.js') }}"></script>
+
+<script src="{{ asset('assets/lib/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
 
 @stack('scripts')
 

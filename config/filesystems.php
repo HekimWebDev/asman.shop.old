@@ -35,6 +35,11 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'tiger' => [
+            'driver' => 'local',
+            'root' => app_path('Services/LogoTiger/TestData'),
+        ],
+
         'media' => [
             'driver' => 'local',
             'root'   => storage_path('app/public/media'),

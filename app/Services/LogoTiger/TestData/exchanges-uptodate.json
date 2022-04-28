@@ -1,0 +1,29 @@
+[
+    {
+        "id": 75,
+        "currencyId": 1,
+        "rates1": 22,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0,
+        "date": "2022-01-13"
+    },
+    {
+        "id": 30,
+        "currencyId": 20,
+        "rates1": 26.45,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0,
+        "date": "2021-11-05"
+    },
+    {
+        "id": 74,
+        "currencyId": 160,
+        "rates1": 1.58,
+        "rates2": 0,
+        "rates3": 0,
+        "rates4": 0,
+        "date": "2021-12-27"
+    }
+]

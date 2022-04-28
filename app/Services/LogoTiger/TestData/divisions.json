@@ -1,0 +1,37 @@
+[
+    {
+        "id": 2,
+        "nr": 0,
+        "name": "Merkez"
+    },
+    {
+        "id": 3,
+        "nr": 10,
+        "name": "MAVI"
+    },
+    {
+        "id": 4,
+        "nr": 20,
+        "name": "ALTIN YILDIZ"
+    },
+    {
+        "id": 5,
+        "nr": 30,
+        "name": "KOTON WOMEN"
+    },
+    {
+        "id": 6,
+        "nr": 40,
+        "name": "KOTON KIDS"
+    },
+    {
+        "id": 7,
+        "nr": 50,
+        "name": "RAMSEY"
+    },
+    {
+        "id": 8,
+        "nr": 60,
+        "name": "LCW"
+    }
+]

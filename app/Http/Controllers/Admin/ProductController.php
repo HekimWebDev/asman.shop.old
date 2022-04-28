@@ -15,6 +15,9 @@ use App\Models\Product;
 use App\Models\ProductImage;
 use App\Traits\ImageUpload;
 use Astrotomic\Translatable\Validation\RuleFactory;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -27,25 +30,43 @@ class ProductController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return Response
+     * @return Application|Factory|View
      */
-    public function index(ProductDataTable $dataTable)
+    /*public function index(ProductDataTable $dataTable)
     {
         return $dataTable->render('admin.products.index');
+    }*/
+    public function index()
+    {
+        $products = Product::latest()->paginate(10);
+//        dd($products);
+
+        return view('admin.products.index', compact('products'));
     }
 
     /**
      * Show the form for creating a new resource.
      *
-     * @return Response
+     * @return Application|Factory|View
      */
     public function create()
     {
-        $categories = Category::whereParentId(null)->with('childs')->withTranslation()->get();
+        $cat = Category::with('descendants')->get();
+        $categoryJson = $cat->map(function ($category) {
+            return [
+                'id' => $category->id,
+                'title' => $category->name,
+                'subs' => $category->descendants->map(function ($category) {
+                    return [
+                        'id' => $category->id,
+                        'title' => $category->name,
+                    ];
+                })
+            ];
+        });
         $attributes = Attribute::with('attributeValues')->get();
         $brands = Brand::all();
-        $blocks = Block::with('translation')->get();
-        return view('admin.products.create', compact('categories', 'attributes', 'brands', 'blocks'));
+        return view('admin.products.create', compact('categoryJson', 'attributes', 'brands'));
     }
 
     /**

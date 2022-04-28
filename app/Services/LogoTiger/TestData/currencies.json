@@ -1,0 +1,1283 @@
+[
+    {
+        "id": 1,
+        "code": "USD",
+        "name": "ABD Dolary",
+        "symbol": "$",
+        "activelyUsed": 1
+    },
+    {
+        "id": 20,
+        "code": "EUR",
+        "name": "Euro",
+        "symbol": "€",
+        "activelyUsed": 1
+    },
+    {
+        "id": 17,
+        "code": "GBP",
+        "name": "İngiliz Sterlini",
+        "symbol": "£",
+        "activelyUsed": 0
+    },
+    {
+        "id": 2,
+        "code": "DEM",
+        "name": "Alman Markı",
+        "symbol": "DM",
+        "activelyUsed": 0
+    },
+    {
+        "id": 3,
+        "code": "AUD",
+        "name": "Avustralya Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 4,
+        "code": "ATS",
+        "name": "Avusturya Şilini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 5,
+        "code": "BEF",
+        "name": "Belçika Frangı",
+        "symbol": "BF",
+        "activelyUsed": 0
+    },
+    {
+        "id": 6,
+        "code": "DKK",
+        "name": "Danimarka Kronu",
+        "symbol": "DK",
+        "activelyUsed": 0
+    },
+    {
+        "id": 7,
+        "code": "FIM",
+        "name": "Fin Markkası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 8,
+        "code": "FRF",
+        "name": "Fransız Frangı",
+        "symbol": "FF",
+        "activelyUsed": 0
+    },
+    {
+        "id": 9,
+        "code": "NLG",
+        "name": "Hollanda Florini",
+        "symbol": "NG",
+        "activelyUsed": 0
+    },
+    {
+        "id": 10,
+        "code": "SEK",
+        "name": "İsveç Kronu",
+        "symbol": "SK",
+        "activelyUsed": 0
+    },
+    {
+        "id": 11,
+        "code": "CHF",
+        "name": "İsviçre Frangı",
+        "symbol": "SF",
+        "activelyUsed": 0
+    },
+    {
+        "id": 12,
+        "code": "ITL",
+        "name": "İtalyan Lireti",
+        "symbol": "IL",
+        "activelyUsed": 0
+    },
+    {
+        "id": 13,
+        "code": "JPY",
+        "name": "Japon Yeni",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 14,
+        "code": "CAD",
+        "name": "Kanada Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 15,
+        "code": "KWD",
+        "name": "Kuveyt Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 16,
+        "code": "NOK",
+        "name": "Norveç Kronu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 18,
+        "code": "SAR",
+        "name": "S. Arabistan Riyali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 19,
+        "code": "XEU",
+        "name": "Avrupa Para Birimi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 21,
+        "code": "AZM",
+        "name": "Azerbaycan Manatı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 22,
+        "code": "BRL",
+        "name": "Brezilya Cruzeirosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 23,
+        "code": "BGN",
+        "name": "Bulgar Levası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 24,
+        "code": "CZK",
+        "name": "Çek Kuronu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 25,
+        "code": "CNY",
+        "name": "Çin Yüeni",
+        "symbol": "",
+        "activelyUsed": 1
+    },
+    {
+        "id": 26,
+        "code": "EEK",
+        "name": "Estonya Kuronu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 27,
+        "code": "GEL",
+        "name": "Gürcistan Larisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 28,
+        "code": "INR",
+        "name": "Hindistan Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 29,
+        "code": "HKD",
+        "name": "Hongkong Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 30,
+        "code": "IQD",
+        "name": "Irak Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 31,
+        "code": "IRR",
+        "name": "İran Riyali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 32,
+        "code": "IEP",
+        "name": "İrlanda Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 33,
+        "code": "ESP",
+        "name": "İspanyol Pesetası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 34,
+        "code": "ILS",
+        "name": "İsrail Şekeli",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 35,
+        "code": "ISK",
+        "name": "İzlanda Kuronu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 36,
+        "code": "CYP",
+        "name": "Kıbrıs Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 37,
+        "code": "KGS",
+        "name": "Kırgızistan Somu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 38,
+        "code": "LVL",
+        "name": "Letonya Latsı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 39,
+        "code": "LYD",
+        "name": "Libya Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 40,
+        "code": "LBP",
+        "name": "Lübnan Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 41,
+        "code": "LTL",
+        "name": "Litvanya Litası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 42,
+        "code": "LUF",
+        "name": "Lüksemburg Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 43,
+        "code": "HUF",
+        "name": "Macaristan Forinti",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 44,
+        "code": "MYR",
+        "name": "Malezya Ringgiti",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 45,
+        "code": "MXN",
+        "name": "Meksika Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 46,
+        "code": "EGP",
+        "name": "Mısır Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 47,
+        "code": "BBD",
+        "name": "Barbados Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 48,
+        "code": "PLN",
+        "name": "Polonya Zlotisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 49,
+        "code": "PTE",
+        "name": "Portekiz Escudosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 50,
+        "code": "ROL",
+        "name": "Romen Leyi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 51,
+        "code": "RUB",
+        "name": "Rus Rublesi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 52,
+        "code": "TWD",
+        "name": "Tayvan Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 53,
+        "code": "TRY",
+        "name": "Türk Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 54,
+        "code": "JOD",
+        "name": "Ürdün Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 55,
+        "code": "GRD",
+        "name": "Yunan Drahmisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 56,
+        "code": "ARS",
+        "name": "Arjantin Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 57,
+        "code": "LAK",
+        "name": "Laos Kipi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 58,
+        "code": "AOA",
+        "name": "Andorra Pesetası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 59,
+        "code": "AED",
+        "name": "BAE Dirhemi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 60,
+        "code": "AFN",
+        "name": "Afganistan Afganisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 61,
+        "code": "ALL",
+        "name": "Arnavutluk Leki",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 62,
+        "code": "ANG",
+        "name": "Hollanda Antilleri Florini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 63,
+        "code": "ADP",
+        "name": "Angola Kwanzası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 64,
+        "code": "BDT",
+        "name": "Bengaldeş Takası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 65,
+        "code": "BHD",
+        "name": "Bahreyn Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 66,
+        "code": "BIF",
+        "name": "Burundi Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 67,
+        "code": "BMD",
+        "name": "Bermuda Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 68,
+        "code": "BND",
+        "name": "Brunei Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 69,
+        "code": "BOB",
+        "name": "Bolivya Bolivianosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 70,
+        "code": "BSD",
+        "name": "Bahama Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 71,
+        "code": "BTN",
+        "name": "Butan Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 72,
+        "code": "BWP",
+        "name": "Botswana Pulası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 73,
+        "code": "BZD",
+        "name": "Belize Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 74,
+        "code": "CLP",
+        "name": "Şili Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 75,
+        "code": "COP",
+        "name": "Kolombiya Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 76,
+        "code": "CRC",
+        "name": "Kosta Rika Kolonu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 77,
+        "code": "CUP",
+        "name": "Küba Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 78,
+        "code": "CVE",
+        "name": "Cape Verde Esküdosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 79,
+        "code": "DJF",
+        "name": "Cibuti Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 80,
+        "code": "DOP",
+        "name": "Dominik Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 81,
+        "code": "DZD",
+        "name": "Cezayir Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 82,
+        "code": "ECS",
+        "name": "Ekvator Sucresi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 83,
+        "code": "ETB",
+        "name": "Etyopya Birri",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 84,
+        "code": "FJD",
+        "name": "Fiji Adaları Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 85,
+        "code": "FKP",
+        "name": "Falkland Adaları Sterlini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 86,
+        "code": "GHS",
+        "name": "Gana Cedisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 87,
+        "code": "GIP",
+        "name": "Cebelitarık Sterlini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 88,
+        "code": "GMD",
+        "name": "Gambia Dalasisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 89,
+        "code": "GNF",
+        "name": "Gine Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 90,
+        "code": "GTQ",
+        "name": "Guatemala Quetzali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 91,
+        "code": "GWP",
+        "name": "Gine-Bisse Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 92,
+        "code": "GYD",
+        "name": "Guyana Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 93,
+        "code": "HNL",
+        "name": "Honduras Lempirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 94,
+        "code": "HTG",
+        "name": "Haiti Gourdesi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 95,
+        "code": "IDR",
+        "name": "Endonezya Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 96,
+        "code": "JMD",
+        "name": "Jamaika Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 97,
+        "code": "KES",
+        "name": "Kenya Şilingi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 98,
+        "code": "KHR",
+        "name": "Kamboçya Rieli",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 99,
+        "code": "KMF",
+        "name": "Komor Frangi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 100,
+        "code": "KPW",
+        "name": "Kuzey Kore Wonu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 101,
+        "code": "KRW",
+        "name": "Güney Kore Wonu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 102,
+        "code": "KYD",
+        "name": "Cayman Adaları Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 103,
+        "code": "LKR",
+        "name": "Sri Lanka Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 104,
+        "code": "LRD",
+        "name": "Liberya Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 105,
+        "code": "LSL",
+        "name": "Lesoto Lotisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 106,
+        "code": "MAD",
+        "name": "Fas Dirhemi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 107,
+        "code": "MNT",
+        "name": "Moğol Tugriki",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 108,
+        "code": "MOP",
+        "name": "Macau Patacası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 109,
+        "code": "MRO",
+        "name": "Moritanya Ogiyası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 110,
+        "code": "MTL",
+        "name": "Malta Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 111,
+        "code": "MUR",
+        "name": "Mauritius Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 112,
+        "code": "MVR",
+        "name": "Maldiv Rufiyası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 113,
+        "code": "MWK",
+        "name": "Malavi Kwachası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 114,
+        "code": "MZN",
+        "name": "Mozambik Meticali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 115,
+        "code": "NGN",
+        "name": "Nijerya Nairası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 116,
+        "code": "NIO",
+        "name": "Nikaragua Cordoba Orosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 117,
+        "code": "NPR",
+        "name": "Nepal Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 118,
+        "code": "NZD",
+        "name": "Yeni Zelanda Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 119,
+        "code": "OMR",
+        "name": "Umman Riyali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 120,
+        "code": "PAB",
+        "name": "Panama Balboası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 121,
+        "code": "PEN",
+        "name": "Peru Solu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 122,
+        "code": "PGK",
+        "name": "Papua Yeni Gine Kinası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 123,
+        "code": "PHP",
+        "name": "Filipin Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 124,
+        "code": "PKR",
+        "name": "Pakistan Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 125,
+        "code": "PYG",
+        "name": "Paraguay Guaranisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 126,
+        "code": "QAR",
+        "name": "Katar Riyali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 127,
+        "code": "RWF",
+        "name": "Ruanda Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 128,
+        "code": "SBD",
+        "name": "Solomon Adaları Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 129,
+        "code": "SCR",
+        "name": "Seyşel Adaları Rupisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 130,
+        "code": "SDG",
+        "name": "Sudan Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 131,
+        "code": "SGD",
+        "name": "Singapur Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 132,
+        "code": "SHP",
+        "name": "St. Helen Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 133,
+        "code": "SLL",
+        "name": "Sierra Leone Leonesi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 134,
+        "code": "SOS",
+        "name": "Somali Şilini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 135,
+        "code": "SRD",
+        "name": "Surinam Florini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 136,
+        "code": "STD",
+        "name": "Sao Tome Dobrası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 137,
+        "code": "SVC",
+        "name": "El Salvador Colonu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 138,
+        "code": "SYP",
+        "name": "Suriye Lirası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 139,
+        "code": "SZL",
+        "name": "Swaziland Lilangenisi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 140,
+        "code": "THB",
+        "name": "Tayland Bahtı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 141,
+        "code": "TND",
+        "name": "Tunus Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 142,
+        "code": "TPE",
+        "name": "Doğu Timor Esküdosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 143,
+        "code": "TTD",
+        "name": "Trinidad ve Tobago Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 144,
+        "code": "TZS",
+        "name": "Tanzanya Şilini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 145,
+        "code": "UGX",
+        "name": "Uganda Şilini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 146,
+        "code": "UYU",
+        "name": "Uruguay Pesosu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 147,
+        "code": "VEB",
+        "name": "Venezuella Bolivarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 148,
+        "code": "VND",
+        "name": "Vietnam Dongu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 149,
+        "code": "WST",
+        "name": "Samoa Talası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 150,
+        "code": "YDD",
+        "name": "Yemen Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 151,
+        "code": "YER",
+        "name": "Yemen Riyali",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 152,
+        "code": "YUD",
+        "name": "Yugoslav Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 153,
+        "code": "ZAR",
+        "name": "Güney Afrika Randı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 154,
+        "code": "ZMK",
+        "name": "Zambia Kwachası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 155,
+        "code": "ZWL",
+        "name": "Zimbabwe Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 156,
+        "code": "KZT",
+        "name": "Kazak Tengesi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 157,
+        "code": "UAH",
+        "name": "Ukrayna Grevniyası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 158,
+        "code": "TMT",
+        "name": "Türkmenistan Manaty",
+        "symbol": "",
+        "activelyUsed": 1
+    },
+    {
+        "id": 159,
+        "code": "UZS",
+        "name": "Özbekistan Somu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 160,
+        "code": "TL",
+        "name": "Türk Lirasy",
+        "symbol": "",
+        "activelyUsed": 1
+    },
+    {
+        "id": 161,
+        "code": "RON",
+        "name": "Romen Yeni Leyi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 162,
+        "code": "AZN",
+        "name": "Azerbaycan Yeni Manatı",
+        "symbol": "Manat",
+        "activelyUsed": 0
+    },
+    {
+        "id": 164,
+        "code": "AMD",
+        "name": "Ermeni Dramı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 165,
+        "code": "AWG",
+        "name": "Aruba Florini",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 166,
+        "code": "KM",
+        "name": "Konvertibıl Mark",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 167,
+        "code": "BYR",
+        "name": "Beyaz Rusya Rublesi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 168,
+        "code": "CDF",
+        "name": "Kongo Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 169,
+        "code": "ERN",
+        "name": "Eritre Nakfası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 170,
+        "code": "HRK",
+        "name": "Hırvatistsan Kunası",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 171,
+        "code": "MDL",
+        "name": "Moldova Leyi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 172,
+        "code": "MGA",
+        "name": "Malgaş ariarysi",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 173,
+        "code": "MKD",
+        "name": "Makedonya Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 174,
+        "code": "MMK",
+        "name": "Kyat",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 175,
+        "code": "NAD",
+        "name": "Namibya Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 176,
+        "code": "RSD",
+        "name": "Sırp Dinarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 177,
+        "code": "TJS",
+        "name": "Somoni",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 178,
+        "code": "TOP",
+        "name": "Pa'anga",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 179,
+        "code": "VEF",
+        "name": "Venezuela Bolivarı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 180,
+        "code": "VUV",
+        "name": "Vanuatu Vatusu",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 181,
+        "code": "XAF",
+        "name": "Central African CFA Franc",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 182,
+        "code": "XCD",
+        "name": "Doğu Karayip Doları",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 183,
+        "code": "XOF",
+        "name": "CFA Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    },
+    {
+        "id": 184,
+        "code": "XPF",
+        "name": "CFP Frangı",
+        "symbol": "",
+        "activelyUsed": 0
+    }
+]

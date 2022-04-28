@@ -2,28 +2,52 @@
 
 namespace App\Models;
 
-use Astrotomic\Translatable\Contracts\Translatable as TranslatableContract;
-use Astrotomic\Translatable\Translatable;
+use App\Base\Traits\HasTranslations;
+use App\Models\AttributeGroupFactory;
+use Illuminate\Database\Eloquent\Casts\AsCollection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use MigrationsGenerator\Models\Model;
 
-class AttributeGroup extends Model implements TranslatableContract
+class AttributeGroup extends Model
 {
-    use HasFactory, Translatable;
+    use HasFactory;
+    use HasTranslations;
 
-    public $translatedAttributes = ['name', 'description'];
-
-    protected $fillable = [
-        'status',
-    ];
-
-    public function scopeActive($query)
+    /**
+     * Return a new factory instance for the model.
+     *
+     * @return AttributeGroupFactory
+     */
+    protected static function newFactory(): AttributeGroupFactory
     {
-        return $query->where('status', 1);
+        return AttributeGroupFactory::new();
     }
 
-    public function attributes()
+    /**
+     * Define which attributes should be
+     * protected from mass assignment.
+     *
+     * @var array
+     */
+    protected array $guarded = [];
+
+    /**
+     * Define which attributes should be cast.
+     *
+     * @var array
+     */
+    protected array $casts = [
+        'name' => AsCollection::class,
+    ];
+
+    /**
+     * Return the attributes relationship.
+     *
+     * @return HasMany
+     */
+    public function attributes(): HasMany
     {
-        return $this->hasMany(Attribute::class);
+        return $this->hasMany(Attribute::class)->orderBy('position');
     }
 }

@@ -14,5 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    /*$cat = \App\Models\Category::with('descendants')->get();
+
+    $jsCat = $cat->map(function ($category) {
+        return [
+            'id' => $category->id,
+            'title' => $category->name,
+            'subs' => $category->descendants->map(function ($category) {
+                return [
+                    'id' => $category->id,
+                    'title' => $category->name,
+                ];
+            })
+        ];
+    });*/
+
+    return view('welcome', compact('cat', 'jsCat'));
 });

@@ -1,5 +1,5 @@
 <input type="checkbox" data-id="{{ $id }}" data-model="{{ $model }}" name="status" class="js-switch"
-    {{ $status == 1 ? 'checked' : '' }}>
+    {{ $status === 1 ? 'checked' : '' }}>
 
 @push('scripts')
 <script>

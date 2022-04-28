@@ -3,164 +3,70 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\CategoryFormRequest;
 use App\Imports\CategoriesImport;
 use App\Traits\ImageUpload;
 use App\Models\Category;
+use App\ViewModels\CategoryViewModel;
 use Astrotomic\Translatable\Validation\RuleFactory;
+use Illuminate\Contracts\Foundation\Application;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use Illuminate\Support\Facades\File;
 use Maatwebsite\Excel\Facades\Excel;
+use Spatie\MediaLibrary\MediaCollections\Exceptions\FileDoesNotExist;
+use Spatie\MediaLibrary\MediaCollections\Exceptions\FileIsTooBig;
 
 class CategoryController extends Controller
 {
-    use ImageUpload;
-
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request, Category $categories)
+    public function index(Request $request)
     {
-        $parent = null;
-
-        if (!isset($request->show)) {
-            $categories = Category::whereOneCParentId(null)
-                ->orderBy('position', 'asc');
-        } else if (is_numeric($request->show)) {
-            $parent = Category::with('translation')->findOrFail($request->show);
-            $categories = Category::whereOneCParentId($parent->one_c_id);
-        }
-
-
-        $categories = $categories->with('childs', 'translation')
-            ->withCount('products', 'categories')
-            ->get()
-            ->chunk(10);
-
-        return view('admin.categories.index', compact('categories', 'parent'));
+        $categories = Category::withCount('descendants')
+            ->paginate(10);
+        return view('admin.categories.index', compact('categories'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        $categories = Category::whereOneCParentId(null)
-            ->with('childs', 'translation')
-            ->get();
+        $categories = Category::whereIsRoot()->get();
         return view('admin.categories.create', compact('categories'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
+    public function store(CategoryFormRequest $request): RedirectResponse
     {
-        $request->validate(
-            RuleFactory::make([
-                '%name%' => 'required|string',
-                '%description%' => 'nullable|string',
-            ])
-        );
+        $data = $request->validated();
 
-        $request->validate([
-            'parent_id' => 'required',
-            'image' => 'required|mimes:png,jpg,webp',
-            'icon' => 'nullable|string',
-            'status' => 'boolean',
-            'banner' => 'nullable|mimes:png,jpg,webp'
-        ]);
-
-        $request->merge(['parent_id' => ($request->parent_id === 'null') ? null : $request->parent_id]);
-
-        $category = Category::create($request->post());
-        $category->status = $request->status === null ? 0 : $request->status;
-
-        if ($request->file('image')) {
-            $category->image = $this->storeImage($request->file('image'), 'categories');
-            $category->save();
-        }
-
-        if ($request->file('banner')) {
-            $category->banner = $this->storeImage($request->file('banner'), 'category-banners');
-            $category->save();
-        }
-
-        $category->save();
+        CategoryViewModel::all($request, $data);
 
         return redirect()->route('admin.categories.index');
     }
 
     /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Category $category)
-    {
-        //
-    }
-
-    /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
+     * @param Category $category
+     * @return Application|Factory|View
      */
     public function edit(Category $category)
     {
-        // dd($category);
-        $categories = Category::whereOneCParentId(null)->with('childs')->withTranslation()->get();
-        return view('admin.categories.edit', compact('category', 'categories'));
+        return view('admin.categories.edit', compact('category'));
     }
 
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
+     * @param CategoryFormRequest $request
+     * @param Category $category
+     * @return RedirectResponse
      */
-    public function update(Request $request, Category $category)
+    public function update(CategoryFormRequest $request, Category $category): RedirectResponse
     {
-        $request->validate(
-            RuleFactory::make([
-                '%name%' => 'required|string',
-                '%description%' => 'nullable|string',
-            ])
-        );
+        $data = $request->validated();
 
-        $request->validate([
-            'image' => 'nullable|mimes:png,jpg,webp',
-            'icon' => 'nullable|mimes:svg',
-            'is_main' => 'boolean',
-            'status' => 'boolean',
-        ]);
-
-        $category->update($request->post());
-        $category->status = $request->status === null ? 0 : $request->status;
-        $category->is_main = $request->is_main === null ? 0 : $request->is_main;
-
-        if ($request->file('image')) {
-            $this->destroyImage($category->image);
-            $category->image = $this->storeImage($request->file('image'), 'categories');
-            $category->save();
-        }
-
-        if ($request->file('icon')) {
-            File::delete('storage/' . $category->icon);
-            $fileName = $request->file('icon')->hashName();
-            $category->icon = $request->file('icon')->storeAs('category-icons', $fileName, 'public');
-        }
-
-        $category->save();
+        CategoryViewModel::all($request, $data, $category);
 
         return redirect()->route('admin.categories.index');
     }
@@ -168,12 +74,13 @@ class CategoryController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Category  $category
-     * @return \Illuminate\Http\Response
+     * @param Category $category
+     * @return RedirectResponse
      */
-    public function destroy(Category $category)
+    public function destroy(Category $category): RedirectResponse
     {
-        $this->destroyImage($category->image);
+        $media = $category->media()->get();
+        $media->each(fn($m) => $m->delete());
         $category->delete();
         return redirect()->back();
     }
@@ -181,37 +88,5 @@ class CategoryController extends Controller
     public function import()
     {
         return view('admin.categories.import');
-    }
-
-    public function importPost(Request $request)
-    {
-        Excel::import(new CategoriesImport, $request->file('file'));
-
-        return redirect()->back();
-    }
-
-    public function position(Request $request)
-    {
-        $categories = Category::whereOneCParentId(null)
-            ->with('translation')
-            ->orderBy('position', 'asc')
-            ->get();
-        // $childs = collect();
-
-        return view('admin.categories.position', compact('categories'));
-    }
-
-    public function updatePosition(Request $request)
-    {
-        if ($request->has('ids')) {
-            $arr = explode(',', $request->input('ids'));
-
-            foreach ($arr as $sortPosition => $id) {
-                $category = Category::find($id);
-                $category->position = $sortPosition;
-                $category->save();
-            }
-            return ['success' => true, 'message' => 'Updated'];
-        }
     }
 }
